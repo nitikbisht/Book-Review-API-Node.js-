@@ -233,6 +233,7 @@ A Review belongs to one User and one Book
 A User can post only one review per Book
 
 ## ER Diagram
+![ER Diagram](./diagram.png)
 
 ## 📦 Tech Stack
 Node.js
