@@ -189,7 +189,7 @@ We chose MongoDB for flexibility in managing data like reviews and users.
 
 
 ## 📊 Database Schema Overview
-### 1. User
+#### 1. User
 ```bash
 {
   _id: ObjectId,
@@ -200,7 +200,7 @@ We chose MongoDB for flexibility in managing data like reviews and users.
   updatedAt: Date
 }
 ```
-### 2. Book
+#### 2. Book
 ``` bash
 {
   _id: ObjectId,
@@ -211,7 +211,7 @@ We chose MongoDB for flexibility in managing data like reviews and users.
   updatedAt: Date
 }
 ```
-### 3. Review
+#### 3. Review
 ``` bash
 {
   _id: ObjectId,
@@ -223,7 +223,7 @@ We chose MongoDB for flexibility in managing data like reviews and users.
   updatedAt: Date
 }
 ```
-## 🔗 Relationships
+### 🔗 Relationships
 A User can write many Reviews
 
 A Book can have many Reviews
